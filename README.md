@@ -1,1 +1,1 @@
-https://vadimmarusan.github.io/Startup/.
+https://vadimmarusan.github.io/Startup/
