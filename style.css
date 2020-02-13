@@ -49,9 +49,6 @@ img {
 
 
 
-/*font-family: 'Montserrat', sans-serif;
-font-family: 'Roboto Slab', serif;*/
-
 .header {
 	height: 770px;
 	background-image: url(images/11.gif);
@@ -124,18 +121,17 @@ h2 {
 }
 
 .section-services {
-	height: 580px;
 	background-color: #fff;
+	padding: 125px 0px;
 }
 
-.section-services-h3 {
+.section-container-h3 {
 	height: 100px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 	align-items: center;
 	margin: 0 auto;
-	margin-top: 125px;
 }
 
 .h3 {
@@ -175,8 +171,8 @@ h2 {
 	justify-content: space-between;
 }
 
-.section-services-clean-typography, .section-services-rock-solid-code, .section-services-expert-support {
-	margin: 10px 0px;
+.section-services-clean-typography, .section-services-rock-solid-code, .section-services-expert-support, .section-about-us-description {
+	margin: 15px 0px;
 }
 
 .section-services-img {
@@ -205,4 +201,19 @@ h2 {
 }
 
 
+.section-about-us {
+	background-color: #f8f8f8;
+	display: block;
+	padding: 125px 0px 62px;
+}
 
+.section-about-us-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin-top: 70px;
+}
+
+.slider {
+	display: flex;
+	flex-wrap: wrap;
+}
