@@ -213,7 +213,12 @@ h2 {
 	margin-top: 70px;
 }
 
-.slider {
-	display: flex;
-	flex-wrap: wrap;
+
+.carousel-inner {
+	padding: 75px 0px;
 }
+
+
+
+
+
