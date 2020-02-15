@@ -334,4 +334,18 @@ element.style {
 	.latest-works-list li {
 	padding: 10px 0px;
 }
+
+	.latest-works img {
+		width: 280px;
+	}
+	.latest-works-container {
+		display: flex;
+		justify-content: center;
+	}
+
+	.latest-works-container {
+		display: flex;
+		justify-content: center;
+	}
+}
 }
