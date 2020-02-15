@@ -7,6 +7,10 @@ a:hover {
 	color: #fff;
 }
 
+li {
+	list-style: none;
+}
+
 
 .navbar-light .navbar-nav .nav-link {
 	font-family: 'Montserrat', sans-serif;
@@ -41,12 +45,6 @@ a:hover {
 .navbar-light .navbar-brand:hover {
 	color: rgb(255, 255, 255);
 }
-
-img {
-	max-width: 100%
-	height: auto;
-}
-
 
 
 .header {
@@ -120,7 +118,7 @@ h2 {
 	color: #c0301c;
 }
 
-.section-services {
+.section-services, .section-latest-works{
 	background-color: #fff;
 	padding: 125px 0px;
 }
@@ -219,6 +217,121 @@ h2 {
 }
 
 
+.latest-works-list {
+	display: flex;
+	justify-content: space-between;
+	padding: 0px;
+}
+
+.latest-works-list li {
+	padding: 0px 10px;
+}
+
+.latest-works-list a {
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	color: #000;
+}
+
+.latest-works-list li a:hover {
+	color: #c0301c;
+}
+
+.latest-works {
+	padding: 15px 15px;
+	display: flex;
+	justify-content: center;
+	align-items: space-between;
+	position: relative;
+}
+
+.latest-works:after {
+	content: ''; 
+	position: absolute;
+	 top: 0; 
+	 left: 0;
+	  right: 0;
+	   bottom: 0; 
+	   background: rgba(0,0,0,.5); 
+	    opacity: 0;
+
+}
+
+.latest-works:hover:after { 
+	opacity: 1; 
+}
 
 
+.latest-works-container {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 75px 0px;
+}
 
+
+@media (max-width: 1200px) {
+	.latest-works img {
+		width: 450px;
+	}
+}
+
+@media (max-width: 992px) {
+
+element.style {
+}
+	.navbar-collapse {
+    flex-basis: 100%;
+    flex-grow: 1;
+    align-items: center;
+    position: absolute;
+    margin-top: 145px;
+}
+
+.latest-works img {
+		width: 330px;
+	}
+}
+
+@media (max-width: 768px) {
+	.latest-works img {
+		width: 520px;
+	}
+	.latest-works-container {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media (max-width: 550px) {
+	.latest-works img {
+		width: 350px;
+	}
+	.latest-works-container {
+		display: flex;
+		justify-content: center;
+	}
+
+	.latest-works-container {
+		display: flex;
+		justify-content: center;
+	}
+}
+
+@media (max-width: 400px){
+	.latest-works-list {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	padding: 0px;
+}
+
+.latest-works-container {
+		display: flex;
+		justify-content: center;
+		margin-top: 180px;
+	}
+
+	.latest-works-list li {
+	padding: 10px 0px;
+}
+}
