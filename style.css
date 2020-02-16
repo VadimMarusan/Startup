@@ -197,10 +197,22 @@ h2 {
 }
 
 
-.section-about-us, .section-recent-blog-posts {
+.section-about-us{
 	background-color: #f8f8f8;
 	display: block;
 	padding: 100px 0px 50px;
+}
+
+.section-recent-blog-posts {
+	background-color: #fff;
+	display: block;
+	padding: 100px 0px 50px;
+}
+
+.slider-clients {
+	background-color: #f8f8f8;
+	display: block;
+	padding: 0px 0px 50px;
 }
 
 .section-about-us-container {
@@ -497,6 +509,22 @@ h2 {
 	cursor: pointer;
 }
 
+.blackout:before {
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0,0,0, 0.55);
+}
+
+.carousel-caption {
+	height: 100%;
+	padding-top: 100px;
+}
+
+
 
 
 
@@ -528,6 +556,11 @@ h2 {
 		padding-top: 0px;
 	}
 
+	.carousel-caption {
+	height: 100%;
+	padding-top: 50px;
+}
+
 }
 
 @media (max-width: 767px) {
@@ -545,6 +578,15 @@ h2 {
 	.blog-tittle {
 		padding-top: 10px;
 	}
+
+	.carousel-item img{
+		height: 300px;
+	}
+
+	.carousel-caption {
+	height: 100%;
+	padding-top: 75px;
+}
 
 }
 
@@ -564,6 +606,11 @@ h2 {
 	.blog-description-tittle {
 		display: flex;
 		justify-content: center;
+	}
+
+	.carousel-caption {
+	height: 100%;
+	padding-top: 50px;
 	}
 }
 
@@ -599,6 +646,11 @@ h2 {
 
 	.calendar {
 		margin-top: 10px;
+	}
+
+	.carousel-caption {
+	height: 100%;
+	padding-top: 30px;
 	}
 
 
