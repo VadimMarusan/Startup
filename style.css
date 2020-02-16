@@ -521,7 +521,7 @@ h2 {
 
 .carousel-caption {
 	height: 100%;
-	padding-top: 100px;
+	padding-top: 115px;
 }
 
 
@@ -534,6 +534,11 @@ h2 {
 @media (max-width: 1200px) {
 	.latest-works img {
 		width: 450px;
+	}
+
+	.carousel-caption {
+	height: 100%;
+	padding-top: 85px;
 	}
 
 
@@ -610,7 +615,7 @@ h2 {
 
 	.carousel-caption {
 	height: 100%;
-	padding-top: 50px;
+	padding-top: 60px;
 	}
 }
 
@@ -650,9 +655,13 @@ h2 {
 
 	.carousel-caption {
 	height: 100%;
+	padding-top: 40px;
+	}
+}
+
+@media (max-width: 350px) {
+	.carousel-caption {
+	height: 100%;
 	padding-top: 30px;
 	}
-
-
-	
 }
