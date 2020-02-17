@@ -173,10 +173,16 @@ h2 {
 
 .section-services-img {
 	border-radius: 50%;
-	line-height: 80px;
 	border: 2px solid #ccc;
 	width: 90px;
 	height: 90px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.section-services-img img {
+	width: 50px;
 }
 
 .red {
@@ -672,10 +678,10 @@ h2 {
 
 .h3-footer img {
 	height: 30px;
+	margin-left: 10px;
 }
 
-
-
+@import url("https://netdna.bootstrapcdn.com/font-awesome/5.12.1/css/font-awesome.min.css");
 
 
 @media (max-width: 1200px) {
