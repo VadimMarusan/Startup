@@ -538,39 +538,32 @@ h2 {
 	font-family: 'Montserrat', sans-serif;
     font-size: 12px;
     font-weight: bold;
-    
-    
-    padding-left: 18px;
+    padding-left: 23px;
 }
 
 .map {
 	background-image: url(images/map.png);
-    background-size: 18px 14px;
+    background-size: 18px 18px;
     background-repeat: no-repeat;
-    background-position: left -3px top 1px;
-
 }
 
 .phone {
 	background-image: url(images/phone.png);
-    background-size: 18px 14px;
+    background-size: 18px 18px;
     background-repeat: no-repeat;
-    background-position: left -3px top 1px;
 }
 
 .letter {
 	background-image: url(images/letter.png);
-    background-size: 17px 14px;
+    background-size: 18px 18px;
     background-repeat: no-repeat;
-    background-position: left -3px top 2px;
-
 }
 
 .contacts-description {
 	font-family: 'Roboto Slab', serif;
 	font-size: 12px;
 	line-height: 10px;
-	padding-left: 18px;
+	padding-left: 23px;
 }
 
 .contacts-container {
@@ -681,7 +674,6 @@ h2 {
 	margin-left: 10px;
 }
 
-@import url("https://netdna.bootstrapcdn.com/font-awesome/5.12.1/css/font-awesome.min.css");
 
 
 @media (max-width: 1200px) {
